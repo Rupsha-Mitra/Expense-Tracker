@@ -1,0 +1,186 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+/* Main Details Section */
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.details div {
+    text-align: center;
+}
+
+.details h3, .details p {
+    margin: 10px 0;
+    color: #4caf50;
+}
+
+.details p:nth-child(2) {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Set Budget Section */
+.set-budget {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.set-budget h3 {
+    margin-bottom: 20px;
+    color: #4caf50;
+}
+
+.show-details {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 20px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.show-details div {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.set-budget input, .set-budget button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.set-budget button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.set-budget button:hover {
+    background-color: #45a049;
+}
+
+/* Expense Form Section */
+.expense-form {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.expense-form h3 {
+    margin-bottom: 20px;
+    color: #4caf50;
+}
+
+.expense-form div {
+    margin: 10px 0;
+}
+
+.expense-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.expense-form select, .expense-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.expense-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.expense-form button:hover {
+    background-color: #45a049;
+}
+
+/* Expense Table */
+.expense-table {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.expense-table table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.expense-table caption {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.expense-table th, .expense-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.expense-table th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.expense-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
